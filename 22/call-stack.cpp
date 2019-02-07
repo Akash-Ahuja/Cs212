@@ -56,7 +56,7 @@ void pwdcheck() {
 
 /* TODO: read this:
  * HOW TO AVOID SUCH SECURITY ISSUES
- * 
+ *
  * Usually, these stem from using C string manipulation routines like `strcpy`
  * on fixed length buffers allocated on the runtime stack.  In general, you
  * should *never* do this.  Also, you should always prefer functions like
@@ -74,13 +74,5 @@ void pwdcheck() {
  * using your favorite search engine.
  * */
 
-/* TODO: (only if you are feeling REALLY adventurous...) generate the assembly
- * file for your program using
- * $ make call-stack.s
- * (I left a makefile target there for it) and see if you can't teach yourself
- * a bit of assembly!  Much googling will probably be involved, but I think if
- * you're motivated, you'll be able to more or less decipher the relevant
- * pieces.  You can also try comparing the assembly code that has the stack
- * canary and the one that doesn't, but it takes a bit of work to understand
- * what is going on...
+/*
  * */
